@@ -1,4 +1,4 @@
-var user_temp = Number(prompt('your temperature'));
+var user_temp = Number(prompt(' give your temperature in digits'));
 var user_unit = prompt('your desired unit');
 var user_tunit = user_temp   + user_unit;
 
