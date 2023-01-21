@@ -27,3 +27,13 @@ switch (key) {
     default:
         break;
 }
+if (condition) {
+    
+}
+ else if( west == east){
+    
+ }
+ else {
+
+ }
+    
