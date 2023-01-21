@@ -1,6 +1,6 @@
 var user_temp = Number(prompt(' give your temperature in digits`'));
-var user_unit = prompt('your desired unit');
-var converted_unit = prompt('state your desired converted unit');
+var user_unit = prompt('your desired standard temperature unit');
+var converted_unit = prompt('state your desired standard temperature unit to be converted into');
  
 var converted_temp;
 
@@ -9,19 +9,6 @@ var first_unit = 'celcius';
 var second_unit = 'kelvin';
  
 var third_unit = 'farenheit';
-if (user_unit !== first_unit || user_unit !== second_unit || user_unit !== third_unit  ) {
-    alert( 'input the right unit');
-   
-}
-else if (converted_unit !== first_unit || converted_unit !== second_unit || converted_unit !== third_unit) {
-    alert('input the right unit');
-
-}
-else {
-    alert('correct input');
-}
-    
-
 
 
 if (user_unit === first_unit, converted_unit === second_unit) {
